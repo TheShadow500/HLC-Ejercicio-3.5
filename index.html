@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HLC - Ejercicio 3.5</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header><img src="./img/logo.png"></header>
+        <main id="menu">
+            <div class="linea"><h1>PILAS</h1></div>
+            <div class="linea"><div class="campoR"><input type="button" id="botonAnadir" value="AÑADIR ELEMENTO"></div></div>
+            <div class="linea"><div class="campoR"><input type="button" id="botonSacar" value="SACAR ELEMENTO"></div></div>
+            <div class="linea"><div class="campoR"><input type="button" id="botonLongitud" value="LONGITUD PILA"></div></div>
+            <div class="linea"><div class="campoR"><input type="button" id="botonMostrar" value="MOSTRAR PILA"></div></div>
+        </main>
+        <main id="anadir" style="display:none;">
+            <div class="linea lineaB"><h1>INSERTAR CADENA</h1></div>
+            <div class="linea">
+                <div class="campoI">CADENA</div>
+                <div class="campoD"><input type="text" id="cadenaInsertar" placeholder="ej. Baloncesto"></div>
+            </div>
+            <div class="linea lineaB"><div class="campoR"><input type="button" id="botonValidar" value="VALIDAR"></div></div>
+            <div class="linea">
+                <div class="campoR" id="mensajeAnadir"></div>
+            </div>
+            <div class="linea lineaB"><input type="button" id="botonVolver1" value="VOLVER"></div>
+        </main>
+        <main id="sacar" style="display:none;">
+            <div class="linea lineaB"><h1>SACAR PILA</h1></div>
+            <div class="linea">
+                <div class="campoR" id="sacarPila"></div>
+            </div>
+            <div class="linea lineaB"><input type="button" id="botonVolver2" value="VOLVER"></div>
+        </main>
+        <main id="longitud" style="display:none;">
+            <div class="linea lineaB"><h1>LONGITUD PILA</h1></div>
+            <div class="linea">
+                <div class="campoR" id="longitudPila"></div>
+            </div>
+            <div class="linea lineaB"><input type="button" id="botonVolver3" value="VOLVER"></div>
+        </main>
+        <main id="mostrar" style="display:none;">
+            <div class="linea lineaB"><h1>MOSTRAR PILA</h1></div>
+            <div class="linea">
+                <div class="campoR" id="mostrarPila"></div>
+            </div>
+            <div class="linea lineaB"><input type="button" id="botonVolver4" value="VOLVER"></div>
+        </main>
+        <footer>
+            ©2024 HLC Ejercicio 3.5 - Creado por Daniel Amores
+        </footer>
+    </div>
+</body>
+</html>
+<script src="./js/script.js"></script>
